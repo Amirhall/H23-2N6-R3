@@ -10,23 +10,25 @@
 # imprimez la liste                                                                                                    #
 # Changez la liste en une chaine de caractères avec les cartes graphiques séparées par des virgules
 
+cpu = ["i7", "i5", "pentium", "ryzen 7"]
+print(cpu)
 
-
-
+print("----------------")
 
 
 #Q2                                                                                                                   #
 #  Voici une chaine de caractères qui ressemble à une ligne de données que vous auriez extraite d'un fichier text     #
 ligne_donnees = " AMD Ryzen 9 5900X ;  AMD Ryzen 7 5800X3 ;  Intel Core i9 12900 K    "                               #
 #  Vous devez dans un premier temps séparer les données sur le caractère qui les séparent
-#  Vous voulez ensuite avoir une liste de chacun des processeurs sans les espaces avant et après chaque processeur processeurs                                                                                            #
+#  Vous voulez ensuite avoir une liste de chacun des processeurs sans7 les espaces avant et après chaque processeur processeurs                                                                                            #
 #  Imprimez la liste maintenant                                                                    #
+ligne_donnees_split = ligne_donnees.split(";")
+ligne_donnees_sansespace = ligne_donnees
+ligne_donnees_sansespace.strip()
 
-
-
-
-
-
+print(ligne_donnees_split)
+print("----------------")
+print(ligne_donnees_sansespace)
 
 
 
