@@ -1,3 +1,7 @@
+#Videos a ne pas midifier apres initialisation
+Ex3 Videos/
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
